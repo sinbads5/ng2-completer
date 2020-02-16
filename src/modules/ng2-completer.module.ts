@@ -1,6 +1,4 @@
 import { NgModule, ModuleWithProviders } from "@angular/core";
-import { FormsModule } from "@angular/forms";
-import { CommonModule } from "@angular/common";
 
 import { CompleterCmp } from "../components/completer-cmp";
 import { CompleterListItemCmp } from "../components/completer-list-item-cmp";
@@ -13,6 +11,8 @@ import { CtrDropdown } from "../directives/ctr-dropdown";
 import { CtrInput } from "../directives/ctr-input";
 import { CtrList } from "../directives/ctr-list";
 import { CtrRow } from "../directives/ctr-row";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
 
 const providers = [
     CompleterService,
