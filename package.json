@@ -51,11 +51,11 @@
     "@angular/platform-browser": ">= 6.0.0",
     "@angular/platform-browser-dynamic": ">= 6.0.0",
     "@angular/platform-server": ">= 6.0.0",
-    "@angular/router": ">= 6.0.0"
+    "@angular/router": ">= 6.0.0",
+    "@compodoc/compodoc": "^1.0.3"
   },
   "devDependencies": {
     "@angular-devkit/schematics": "^9.0.2",
-    "@compodoc/compodoc": "^1.0.3",
     "@types/jasmine": "^2.6.2",
     "@types/node": "^10.3.2",
     "angular2-template-loader": "^0.6.2",
