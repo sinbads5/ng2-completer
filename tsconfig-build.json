@@ -1,4 +1,5 @@
 {
+    "extends": "./tsconfig.json",
     "compilerOptions": {
         "rootDir": ".",
         "baseUrl": ".",
@@ -11,10 +12,10 @@
         "declaration": true,
         "strict": true,
         "moduleResolution": "node",
-        "module": "es2015",
+        "module": "esnext",
         "target": "es2015",
         "lib": [
-            "es2015",
+            "es2018",
             "dom"
         ],
         "skipLibCheck": true,
@@ -27,6 +28,13 @@
     "files": [
         "public_api.ts",
         "node_modules/zone.js/dist/zone.js.d.ts"
+    ],
+    "include": [
+      "src/**/*.d.ts"
+    ],
+    "exclude": [
+      "src/test.ts",
+      "src/**/*.spec.ts"
     ],
     "angularCompilerOptions": {
         "skipTemplateCodegen": true,
