@@ -46,7 +46,6 @@
   },
   "devDependencies": {
     "@angular-devkit/schematics": "^9.0.2",
-    "@angular/animations": ">= 6.0.0",
     "@angular/cdk": ">= 6.0.0",
     "@angular/common": ">= 6.0.0",
     "@angular/compiler": ">= 6.0.0",
