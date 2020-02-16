@@ -39,7 +39,7 @@
   "homepage": "http://oferh.github.io/ng2-completer/",
   "license": "MIT",
   "repository": "oferh/ng2-completer",
-  "peerDependencies": {
+  "dependencies": {
     "@angular/common": ">= 6.0.0",
     "@angular/core": ">= 6.0.0",
     "@angular/forms": ">= 6.0.0",
@@ -99,6 +99,5 @@
   },
   "devDependencies": {
     
-  },
-  "dependencies": {}
+  }
 }
